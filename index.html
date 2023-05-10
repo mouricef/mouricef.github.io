@@ -34,8 +34,16 @@
     </style>
   </head>
   <body>
+    <script>
+      function launchApp() {
+        var appScheme = "rdiscovery://";
+        window.location.href = appScheme;
+      }
+    </script>
     <div class="banner">
-      <a class="play-store-button" href="rdiscovery://">Go to RDiscovery</a>
+      <button class="play-store-button" onclick="launchApp()">
+        Launch RDiscovery App
+      </button>
     </div>
 
     <!-- Rest of your website content -->
