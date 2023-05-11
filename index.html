@@ -39,10 +39,26 @@
         var appScheme = "rdiscovery://";
         window.location.href = appScheme;
       }
+
+      function launchApp1() {
+        var appScheme = "https://discovery.researcher.life";
+        window.location.href = url;
+      }
+
+      function launchApp2() {
+        var appScheme = "rdiscovery://discovery.researcher.life";
+        window.location.href = url;
+      }
     </script>
     <div class="banner">
       <button class="play-store-button" onclick="launchApp()">
         Launch RDiscovery App
+      </button>
+      <button class="play-store-button" onclick="launchApp1()">
+        Launch RDiscovery App 1
+      </button>
+      <button class="play-store-button" onclick="launchApp2()">
+        Launch RDiscovery App 2
       </button>
     </div>
 
